@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Austin Dean | Living Resume</title>
+    <meta
+      name="description"
+      content="Austin Dean is a biochemistry student at Christopher Newport University seeking Summer 2027 opportunities in pharmaceutical research, manufacturing, quality, and related fields."
+    />
+    <meta name="theme-color" content="#f5f0e8" />
+    <meta property="og:title" content="Austin Dean | Living Resume" />
+    <meta
+      property="og:description"
+      content="Research, healthcare, leadership, and a living snapshot of what Austin Dean is building next."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/images/austin-dean-portrait.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-bg">
+      <div class="page-shell">
+        <header class="site-header">
+          <a class="wordmark" href="#top" aria-label="Austin Dean home">
+            <span class="wordmark-name">Austin Dean</span>
+            <span class="wordmark-meta">Living resume</span>
+          </a>
+
+          <nav class="site-nav" aria-label="Primary">
+            <a href="#about">About</a>
+            <a href="#journey">Journey</a>
+            <a href="#highlights">Highlights</a>
+            <a href="#skills">Skills</a>
+            <a href="#writing">Writing</a>
+            <a href="#resume">Resume</a>
+          </nav>
+
+          <a class="header-cta" href="./assets/Dean_Austin_Resume_Current.pdf"
+            >Resume PDF</a
+          >
+        </header>
+
+        <main id="main-content">
+          <section class="hero section" id="top" aria-labelledby="hero-title">
+            <div class="hero-shell" data-reveal>
+              <div class="hero-copy-column">
+                <div class="hero-meta-row">
+                  <span class="eyebrow">Living Resume / Personal Brand Site</span>
+                  <span class="status-pill" id="availability-pill"></span>
+                </div>
+
+                <p class="hero-kicker" id="hero-kicker"></p>
+                <h1 id="hero-title"></h1>
+                <p class="hero-copy" id="hero-copy"></p>
+
+                <div class="hero-actions" id="hero-actions"></div>
+                <div class="hero-badges" id="hero-badges"></div>
+                <div class="hero-stats" id="hero-stats"></div>
+              </div>
+
+              <div class="hero-visual-column">
+                <figure class="portrait-card" data-reveal>
+                  <div class="portrait-frame">
+                    <img
+                      id="hero-portrait"
+                      src="./assets/images/austin-dean-portrait.jpeg"
+                      alt=""
+                      width="1280"
+                      height="1280"
+                      fetchpriority="high"
+                    />
+                  </div>
+                  <figcaption class="portrait-caption">
+                    <span class="card-label">Profile</span>
+                    <p id="portrait-caption"></p>
+                  </figcaption>
+                </figure>
+
+                <article class="focus-card panel" data-reveal>
+                  <p class="card-label">Currently focused on</p>
+                  <ul class="signal-list compact-list" id="current-focus-list"></ul>
+                </article>
+
+                <article class="now-card" id="hero-note" data-reveal></article>
+              </div>
+            </div>
+          </section>
+
+          <section class="section section-slim orbit-section" aria-label="Current orbit">
+            <div class="orbit-card" data-reveal>
+              <p class="card-label">Current orbit</p>
+              <div class="orbit-list" id="affiliation-list"></div>
+            </div>
+          </section>
+
+          <section class="section" id="about" aria-labelledby="about-title">
+            <div class="section-intro" data-reveal>
+              <div>
+                <p class="eyebrow">About</p>
+                <h2 id="about-title">Where science, systems, and service meet.</h2>
+              </div>
+              <p class="section-copy">
+                The goal of this site is not just to list experiences. It is to make
+                the pattern behind them easy to see: research, healthcare, and
+                leadership work that all point toward practical impact.
+              </p>
+            </div>
+
+            <div class="about-layout">
+              <article class="panel prose-panel" data-reveal>
+                <blockquote class="pull-quote" id="pull-quote"></blockquote>
+                <div class="prose-block" id="about-copy"></div>
+              </article>
+
+              <aside class="about-stack">
+                <article class="panel detail-card" data-reveal>
+                  <p class="card-label">Quick view</p>
+                  <div class="facts-grid" id="quick-facts"></div>
+                </article>
+
+                <article class="panel detail-card" data-reveal>
+                  <p class="card-label">Recent signal</p>
+                  <div class="achievement-strip" id="achievement-strip"></div>
+                </article>
+              </aside>
+            </div>
+          </section>
+
+          <section class="section" id="journey" aria-labelledby="journey-title">
+            <div class="section-intro" data-reveal>
+              <div>
+                <p class="eyebrow">Journey</p>
+                <h2 id="journey-title">
+                  Education, research, and the environments shaping my path.
+                </h2>
+              </div>
+              <p class="section-copy">
+                This is the timeline view: labs, programs, leadership experiences, and
+                settings that have helped define the kind of work I want to keep doing.
+              </p>
+            </div>
+
+            <div class="journey-layout">
+              <aside class="journey-sidebar">
+                <article class="panel education-card" id="education-card" data-reveal></article>
+
+                <article class="panel interest-card" data-reveal>
+                  <p class="card-label">Career interests</p>
+                  <ul class="signal-list compact-list" id="career-interest-list"></ul>
+                </article>
+              </aside>
+
+              <div class="timeline" id="experience-list"></div>
+            </div>
+          </section>
+
+          <section class="section" id="highlights" aria-labelledby="highlights-title">
+            <div class="section-intro" data-reveal>
+              <div>
+                <p class="eyebrow">Highlights</p>
+                <h2 id="highlights-title">
+                  Selected work and momentum signals that deserve more than one line.
+                </h2>
+              </div>
+              <p class="section-copy">
+                These cards are where the site starts feeling like a portfolio instead
+                of a resume. Each one is a fuller story about where I have been
+                investing my energy.
+              </p>
+            </div>
+
+            <div class="highlight-grid" id="highlight-list"></div>
+          </section>
+
+          <section class="section" id="skills" aria-labelledby="skills-title">
+            <div class="section-intro" data-reveal>
+              <div>
+                <p class="eyebrow">Skills</p>
+                <h2 id="skills-title">A living map of what I bring to a team already.</h2>
+              </div>
+              <p class="section-copy">
+                This section is intentionally structured to grow over time. It can keep
+                expanding with new techniques, tools, responsibilities, and interests
+                without forcing a redesign.
+              </p>
+            </div>
+
+            <div class="skill-grid" id="skill-group-list"></div>
+          </section>
+
+          <section class="section" id="writing" aria-labelledby="writing-title">
+            <div class="section-intro" data-reveal>
+              <div>
+                <p class="eyebrow">Writing & Research Notes</p>
+                <h2 id="writing-title">
+                  A space for papers, projects, questions, and work in progress.
+                </h2>
+              </div>
+              <p class="section-copy">
+                This is the part of the site designed to become more alive over time:
+                paper reflections, lab updates, current questions, and notes on what I
+                am building or learning.
+              </p>
+            </div>
+
+            <div class="writing-layout">
+              <article class="featured-note panel" id="featured-note"></article>
+
+              <div class="writing-stack">
+                <article class="panel writing-prompt" data-reveal>
+                  <p class="card-label">What can live here</p>
+                  <ul class="signal-list compact-list" id="writing-topic-list"></ul>
+                </article>
+
+                <div class="note-grid" id="writing-list"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section" id="resume" aria-labelledby="resume-title">
+            <div class="section-intro" data-reveal>
+              <div>
+                <p class="eyebrow">Resume & Links</p>
+                <h2 id="resume-title">The quick scan is still here when someone needs it.</h2>
+              </div>
+              <p class="section-copy">
+                The rest of the site is meant to give context, texture, and current
+                momentum. This section keeps the traditional format and public links
+                close at hand.
+              </p>
+            </div>
+
+            <div class="resume-layout">
+              <article class="panel resume-download" data-reveal>
+                <p class="card-label">Resume PDF</p>
+                <h3>Current version ready to download</h3>
+                <p id="resume-summary"></p>
+                <div class="resume-skills" id="resume-skill-list"></div>
+                <a class="button button-primary" href="./assets/Dean_Austin_Resume_Current.pdf"
+                  >Download current resume</a
+                >
+              </article>
+
+              <aside class="panel resume-links" data-reveal>
+                <p class="card-label">Connect & references</p>
+                <div class="link-stack" id="contact-links"></div>
+              </aside>
+            </div>
+          </section>
+        </main>
+
+        <footer class="site-footer section" id="contact">
+          <div class="footer-shell" data-reveal>
+            <div>
+              <p class="eyebrow">Contact</p>
+              <h2>Interested in research, healthcare, or Summer 2027 opportunities?</h2>
+              <p class="footer-copy" id="footer-copy"></p>
+            </div>
+            <div class="footer-actions" id="footer-actions"></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="./content.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
